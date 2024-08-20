@@ -37,7 +37,7 @@ window.addEventListener('load', function() {
         <div class="popup-content">
             <h2>It's Your Day My Love!</h2>
             <p>I hope this day brings you all the joy in the world.</p>
-            <button id="close-popup">Surprise Button</button>
+            <button id="close-popup">Click Surprise Button</button>
         </div>
     `;
     document.body.appendChild(greetingPopup);
