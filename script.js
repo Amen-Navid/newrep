@@ -35,7 +35,7 @@ window.addEventListener('load', function() {
     greetingPopup.classList.add('greeting-popup');
     greetingPopup.innerHTML = `
         <div class="popup-content">
-            <h2>It's Your Day My Love!</h2>
+            <h2>It's Your Day My Love! Let's Celebrate</h2>
             <p>I hope this day brings you all the joy in the world.</p>
             <button id="close-popup">Click Surprise Button</button>
         </div>
@@ -67,4 +67,4 @@ function showNextSlide() {
     slides[currentSlide].classList.add('active');
 }
 
-setInterval(showNextSlide, 3000); 
+setInterval(showNextSlide, 6000); 
